@@ -21,3 +21,8 @@ function Phrase(content) {
     return this.processedContent() === this.processedContent().reverse();
   }
 }
+
+
+Array.prototype.last = function() {
+  return this[this.length-1]
+}
